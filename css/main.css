@@ -1,0 +1,44 @@
+.header-s{
+    background-color: #fff;
+}
+.header-s__wrap{
+    padding-left: 215px;
+    display: flex;
+}
+.header-s__wrap h1{
+    padding-top: 17px;
+    width: 200px;
+    text-align: center;
+}
+.header-s__wrap h1 span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-title{
+    height: 63px;
+    position: relative;
+    background-color: #00a651;
+    width: 100%;
+}
+.header-title__main-text{
+    padding-left: 20px;
+    padding-top: 17px;
+    color: #ffffff;
+    width: 200px;
+    font-size: 9px;
+}
+.header-title__contacts{
+    position: absolute;
+    padding-right: 10px;
+    top: 5px;
+    left: 250px;
+    width: 150px;
+    height: 73px;
+    text-align: right;
+    background-color: #ffffff;
+    border: solid 2px #00a651;
+    border-radius: 10px;
+}
+.header-title__contacts a{
+    font-size: 12px;
+}
