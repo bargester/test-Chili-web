@@ -1,5 +1,12 @@
 body{
     background-image: url("../img/background.png");
+    overflow-x: hidden;
+    font-family: 'PT Sans', sans-serif;
+}
+.header-container{
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
 }
 .container{
     margin: 0 auto;
@@ -12,23 +19,26 @@ body{
     background-color: #fff;
 }
 .header-s__wrap{
-    padding-left: 215px;
     display: flex;
+    position: relative;
 }
 .header-s__wrap h1{
     padding-top: 17px;
     width: 200px;
     text-align: center;
+    font-weight: bold;
 }
 .header-s__wrap h1 span{
-    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 .header-title{
     height: 63px;
-    position: relative;
+    position: absolute;
+    left: 250px;
     background-color: #00a651;
-    width: 100%;
+    width: 500%
 }
 .header-title:after{
     content: '';
@@ -51,12 +61,13 @@ body{
     padding-right: 10px;
     padding-top: 5px;
     top: 5px;
-    left: 250px;
+    left: 220px;
     width: 150px;
     height: 67px;
     text-align: right;
     background-color: #ffffff;
     color: #00a651;
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
     border: solid 2px #00a651;
@@ -71,7 +82,7 @@ body{
 /*INTRO SECTION*/
 .intro-s__wrap{
     background-color: #fff;
-    padding-top: 5px;
+    padding-top: 15px;
     height: 825px;
     display: flex;
     justify-content: space-between;
@@ -89,7 +100,7 @@ body{
     width: 330px;
     bottom: 2px;
     left: 0;
-    font-size: 12px;
+    font-size: 11px;
 }
 .into__sale > img{
     height: 208px;
@@ -102,10 +113,11 @@ body{
     background-color: #ebebeb;
 }
 .intro__top h2{
+    padding-top: 4px;
+    padding-right: 15px;
     text-align: right;
     font-size: 29px;
     font-weight: bold;
-    padding-right: 10px;
     color: #fff;
     height: 40px;
     background-color: #00a651;
